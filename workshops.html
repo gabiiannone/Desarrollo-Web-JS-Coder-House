@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="garden, deco, home, macetas, plantas, verde, velas, difusores, suculentas, decoracion, workshops, cursos">
+	<meta name="description" content="SUCUGARDEN, tienda online de plantas y articulos de decoracion y diseño, cursos presenciales y asesoramiento personalizado">
+
+	<title>NUESTROS CURSOS</title>
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="estilos/estilos.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2? family = Montserrat: wght @ 300; 400; 700 & family = Roboto: wght @ 400; 700 & display = swap "
+		rel=" stylesheet ">
+	<link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+
+
+</head>
+
+<body class="workshops">
+	<h1>CURSOS</h1>
+
+	<table class="table table-success table-striped">
+		<thead>
+		  <tr>
+			<th scope="col">CURSO</th>
+			<th scope="col">ABRIL</th>
+			<th scope="col">MAYO</th>
+			<th scope="col">JUNIO</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<th scope="row">TODO SOBRE CACTUS Y SUCULENTAS</th>
+			<td>SABADO 17 DE ABRIL 11HS</td>
+			<td>MIERCOLES 26 DE MAYO 15HS</td>
+			<td>SABADO 12 DE JUNIO 11HS</td>
+		  </tr>
+		  <tr>
+			<th scope="row">COMO HACER UN TERRARIO</th>
+			<td>SABADO 10 DE ABRIL 11HS</td>
+			<td>SABADO 8 DE MAYO 11HS</td>
+			<td>MIERCOLES 9 DE JUNIO 11HS</td>
+		  </tr>
+		  <tr>
+			<th scope="row">COQUEDAMAS</th>
+			<td>SABADO 24 DE ABRIL 11HS</td>
+			<td>MIERCOLES 19 DE MAYO 15HS</td>
+			<td>SABADO 26 DE JUNIO 11HS</td>
+		  </tr>
+		</tbody>
+	  </table>
+
+	  <p>Aprovecha un 10% de descuento anotandote con 7 dias de anticipacion</p>
+
+	  <form id="form1" action=""  name="cursos" class="row g-3 needs-validation" novalidate>
+		<div class="col-md-4 position-relative">
+		  <label for="validationTooltip01" class="form-label">Apellido</label>
+		  <input name="apellido" type="text" class="form-control" id="validationTooltip01" required>
+		  <div class="valid-tooltip">
+			Looks good!
+		  </div>
+		</div>
+		<div class="col-md-4 position-relative">
+		  <label for="validationTooltip02" class="form-label">Nombre</label>
+		  <input name="nombre" type="text" class="form-control" id="validationTooltip02" value="" required>
+		  <div class="valid-tooltip">
+			Looks good!
+		  </div>
+		</div>
+		<div class="col-md-4 position-relative">
+		  <label for="validationTooltipUsername" class="form-label">Mail</label>
+		  <div class="input-group has-validation">
+			<span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+			<input name="email" type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+			<div class="invalid-tooltip">
+			  Please choose a unique and valid username.
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-6 position-relative">
+		  <label for="validationTooltip03" class="form-label">Telefono</label>
+		  <input type="text" class="form-control" id="validationTooltip03" required>
+		  <div class="invalid-tooltip">
+			
+		  </div>
+		</div>
+		<div class="col-md-3 position-relative">
+		  <label for="validationTooltip04" class="form-label">Curso</label>
+		  <select name="curso" onchange="cambio()" id= "selector" class="form-select" id="validationTooltip04"  required>
+			<option selected disabled value="">Elegir Curso</option>
+			<option value="0">-</option>
+			<option value="1">TODO SOBRE CACTUS Y SUCULENTAS</option>
+			<option value="2">COMO HACER UN TERRARIO</option>
+			<option value="3">COQUEDAMAS</option>
+		  </select>
+		  <div class="invalid-tooltip">
+			Please select a valid state.
+		  </div>
+		</div>
+		<div class="col-md-3 position-relative">
+		  <label for="validationTooltip05" class="form-label">Fecha</label>
+		  <select name="fechas"  class="form-select" id="validationTooltip04"  required>
+			<option selected disabled value="">Fecha</option>
+			
+		  </select>
+		  <div class="invalid-tooltip">
+			Please provide a valid zip.
+		  </div>
+		</div>
+		<div class="col-12">
+		  <button class="remove" id="inscribirse" class="btn btn-primary" type="submit">Inscribirse</button>
+		</div>
+	  </form>
+
+	  <a href="mailto:succugardenhome@gmail.com" id="valiMail">Mail</a>
+
+
+
+
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="archivosjs/workshops.js"></script>
+	
+	
+
+	<a href="index.html">Menu principal
+
+	</a>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="garden, deco, home, macetas, plantas, verde, velas, difusores, suculentas, decoracion, workshops, cursos">
+	<meta name="description" content="SUCUGARDEN, tienda online de plantas y articulos de decoracion y diseño, cursos presenciales y asesoramiento personalizado">
+
+	<title>GARDEN</title>
+
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="estilos/estiloCarrito.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2? family = Montserrat: wght @ 300; 400; 700 & family = Roboto: wght @ 400; 700 & display = swap " rel=" stylesheet ">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+
+</head>
+
+<body>
+    <div class="header">
+		<div class="heading">
+			<h1>LINEA GARDEN</h1>
+		</div>
+		<div class="cart">
+			<i class="fa fa-shopping-basket fa-2x"></i>
+            <i class="fa fa-caret-down"></i><br>
+			<div class="total-text">
+				<p>Productos</p>
+				<p id="items-basket"></p>
+			</div>
+		</div>
+
+		<div id="cart-items">
+			<ol id="list-item">
+			</ol>
+
+			<div class="total-text">
+					<p>Total: </p>
+					<p id="total-price"></p>
+			</div>
+            <button class="remove">Finalizar Compra</button>
+			<p id="b2">Gracias por tu compra</p>
+		</div>
+
+        
+		
+		
+
+
+
+	</div>
+
+    
+
+	<span class="nav-bar" id="btnMenu"><i class="fas fa-bars"></i>MENU</span>
+
+
+	<nav class="main-nav">
+		<ul class="lista_lineas" id="Menu">
+			<li class="menu__item container-submenu">
+				<a href="#macetas" class="menu_link submenu-btn">Macetas<i class="fas fa-chevron-circle-down"></i></a>
+				<ul class="submenu">
+					<li class="menu__item"><a href="#rotomoldeado" class="menu__link">Fibra de vidrio rotomoldeado</a></li>
+					<li class="menu__item"><a href="#fibradevidrio" class="menu__link">Fibra de vidrio de diseño</a></li>
+					<li class="menu__item"><a href="#fibrocemento" class="menu__link">Fibrocemento</a></li>
+					<li class="menu__item"><a href="#piedemadera" class="menu__link">Con pie de madera</a></li>
+					<li class="menu__item"><a href="#piedehierro" class="menu__link">Con pie de hierro</a></li>
+				</ul>
+
+			</li>
+
+			<li class="menu__item container-submenu">
+				<a href="#plantasdeinterior" class="menu_link submenu-btn">Plantas de interior<i class="fas fa-chevron-circle-down"></i></a>
+				<ul class="submenu">
+					<li class="menu__item"><a href="#strelitzia" class="menu__link">Strelitzia</a></li>
+					<li class="menu__item"><a href="#nicolai" class="menu__link">Strelitzia Nicolai</a></li>
+					<li class="menu__item"><a href="#stromanthe" class="menu__link">Stromanthe</a></li>
+					<li class="menu__item"><a href="#lazo" class="menu__link">Lazo de amor</a></li>
+					<li class="menu__item"><a href="#ficus" class="menu__link">Ficus</a></li>
+					<li class="menu__item"><a href="#monstera" class="menu__link">Monstera</a></li>
+				</ul>
+
+			</li>
+
+			<li class="menu__item container-submenu">
+				<a href="#plantasdeexterior"  class="menu_link submenu-btn">Plantas de exterior<i class="fas fa-chevron-circle-down"></i></a>
+				<ul class="submenu">
+					<li class="menu__item"><a href="#washingtonia" class="menu__link">Washingtonia</a></li>
+					<li class="menu__item"><a href="#cyca" class="menu__link">Palmera Cyca</a></li>
+					<li class="menu__item"><a href="#pindo" class="menu__link">Palmera Pindo</a></li>
+					
+				</ul>
+
+			</li>
+
+			<li class="menu__item container-submenu">
+				<a href="#suculentas"  class="menu_link submenu-btn">Suculentas<i class="fas fa-chevron-circle-down"></i></a>
+				<ul class="submenu">
+					<li class="menu__item"><a href="#graptopetalum" class="menu__link">Graptopetalum</a></li>
+					<li class="menu__item"><a href="#echeveria" class="menu__link">Echeveria</a></li>
+					<li class="menu__item"><a href="#aeonium" class="menu__link">Aeonium</a></li>
+					
+				</ul>
+
+			</li>
+
+			<li class="menu__item container-submenu">
+				<a href="#combos"  class="menu_link submenu-btn">Combos<i class="fas fa-chevron-circle-down"></i></a>
+				<ul class="submenu">
+					<li class="menu__item"><a href="#combo1" class="menu__link">Combo 1</a></li>
+					<li class="menu__item"><a href="#combo2" class="menu__link">Combo 2</a></li>
+					<li class="menu__item"><a href="#combo3" class="menu__link">Combo 3</a></li>
+					
+				</ul>
+
+			</li>
+
+			
+			
+			
+			
+		</ul>
+    </nav> 
+		
+	<h2 id="macetas" class="titulo_h2">MACETAS</h2>
+
+	<div class="items-container">
+		<!-- Macetas 1 -->
+		<div class="item">
+			<img src="imagenes/rotomoldeado2.jpeg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="rotomoldeado" >Fibra de vidrio Rotomoldeado</h3>
+                <div>
+                    <p  class="card-text"> Macetas de pvc rotomoldeado para interior y exterior simil piedra. Colores: Negro, Gris, Beige.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">5900</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Macetas 2 -->
+		<div class="item">
+			<img src="imagenes/fibradevidrio40x40.jpeg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="fibradevidrio" >Fibra de vidrio de diseño</h3>
+                <div>
+                    <p  class="card-text"> Maceta de fibra de vidrio 40x40
+
+                        Color: Vison, Rosa, Piel, Gris, Blanca (con blanco y raya dorada)<br>
+                        IMPORTANTE.( tarda 10 dias de produccion aprox)
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">5300</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Macetas 3 -->
+		<div class="item">
+			<img src="imagenes/fibradevidrio35x50.jpeg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="fibradevidrio" >Fibra de vidrio de diseño</h3>
+                <div>
+                    <p  class="card-text"> Maceta de fibra de vidrio. 35de diámetro x 50 de alto
+  
+                        Color: Vison, Rosa, Piel, Gris, Blanca (con blanco y raya dorada)<br>
+                        (Pedila en el color que quieras, y demora aprox unos 10 días de producción)
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">7990</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Macetas 4 -->
+		<div class="item">
+			<img src="imagenes/gotafibrocemento.webp">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="fibrocemento" >Fibrocemento</h3>
+                <div>
+                    <p  class="card-text"> Maceta fibrocemento color Impermeabilizada en su interior con terminacion a mano.<br>
+                        Maceta fibrocemento<br>
+                        Modelo Gota<br>
+                        Color Blanco/Negro/ Natural<br>
+                        Altura 50 cm<br>
+                        Boca 38 cm<br>
+                        Diámetro 42 cm<br>
+                        Última tendencia en Deco!	
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">4900</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Macetas 5 -->
+		<div class="item">
+			<img src="imagenes/piedemadera2.jpeg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="piedemadera" >Con pie de madera</h3>
+                <div>
+                    <p  class="card-text"> Las macetas de encastre bajas son de MDF con terminación en guatambú. Su estructura consiste en dos piezas encastrables donde colocás la maceta blanca, con su plato de riego en el interior.<br>
+						👉🏼Estructura: 20x18 cm / Altura total con maceta: 37cm<br>
+						Incluye:<br>
+						- Dos piezas encastrables de MDF enchapado en guatambú<br>
+						- Un aro circular de MDF enchapado para colocar encima de las 2 piezas<br>
+						- Un plato de riego nº16<br>
+						- Una maceta blanca de plástico de 22cm de diámetro <br>
+						(No incluye planta)
+						>> Recomendamos que su uso sea exclusivamente para el INTERIOR, ya que no cuentan con su capa protectora de barniz.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">2790</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Macetas 6 -->
+		<div class="item">
+			<img src="imagenes/piedehierro.jpeg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="piedehierro" >Con pie de hierro</h3>
+                <div>
+                    <p  class="card-text"> Las macetas trípode tienen una estructura de hierro que todos conocemos, pero con la particularidad de que en esta ocasión el diseño lo pensamos para que podamos colocar un plato de riego debajo de nuestra maceta! y por supuesto le incluimos un toque en madera para darle más calidez a los ambientes ;)<br>
+						Incluye:<br>
+						- Una estructura de hierro blanco<br>
+						- Un aro circular de MDF enchapado en guatambú de 22,5 cm.<br>
+						- Una maceta blanca de plástico de 22cm de diámetro <br>
+						- Un plato de riego nº16<br>
+							(No incluye planta)<br>
+						👉🏼Estructura de hierro: 20x50 cm / Altura total con maceta: 70,5 cm 
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">4100</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <h2 id="plantasdeinterior" class="titulo_h2">PLANTAS DE INTERIOR</h2>
+
+    <div class="items-container">
+		<!-- Interior 1 -->
+		<div class="item">
+			<img src="imagenes/strelitzia.jpg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="strelitzia" >STRELITZIA</h3>
+                <spam class="sale">15% off</spam>
+                <div>
+                    <p  class="card-text">  Es similar a la platanera (género Musa) pero con más
+                        altura y con la peculiaridad de que sus hojas sólo se abren en dos
+                        direcciones. En esta especie, la flor es más grande que en S. reginae y con
+                        colores morados y blancos. Se suele emplear en la decoración de jardines y
+                        parques por su belleza ornamental.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">4500</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Interior 2 -->
+		<div class="item">
+			<img src="imagenes/strelitzianicolai.jpeg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="nicolai" >STRELITZIA NICOLAI</h3>
+                <spam class="sale">15% off</spam>
+                <div>
+                    <p  class="card-text"> Son plantas tropicales rizomatosas que alcanzan 60 cm de altura.
+                        Tienen atractivas hojas ovaladas-lanceoladas, de hasta 50 cm de longitud y de
+                        color verde y crema con el envés rojizo o granate. En interior no suelen
+                        florecer pero si lo hacen produce flores en forma de espigas rojas en invierno o
+                        a principios de primavera.
+                        Se utilizan como plantas de interior y de invernadero en macetas más anchas que
+                        altas. Suelen durar unos 3 años y después empiezan a perder atractivo.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">5500</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Interior 3 -->
+		<div class="item">
+			<img src="imagenes/stromanthe2.jpeg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="stromanthe" >STROMANTHE</h3>
+                <div>
+                    <p  class="card-text"> Son plantas tropicales rizomatosas que alcanzan 60 cm de altura.
+                        Tienen atractivas hojas ovaladas-lanceoladas, de hasta 50 cm de longitud y de
+                        color verde y crema con el envés rojizo o granate. En interior no suelen
+                        florecer pero si lo hacen produce flores en forma de espigas rojas en invierno o
+                        a principios de primavera.
+                        Se utilizan como plantas de interior y de invernadero en macetas más anchas que
+                        altas. Suelen durar unos 3 años y después empiezan a perder atractivo.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">2000</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Interior 4 -->
+		<div class="item">
+			<img src="imagenes/lazodeamor.jpeg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="lazo" >LAZO DE AMOR</h3>
+                <div>
+                    <p  class="card-text"> Es común encontrarla en los hogares, porque es fácil de mantener. Lazo de amor forma
+                        parte de la familia de las liliáceas y es originaria de las selvas tropicales de
+                        África del sur. Actualmente existen poco más de 200 especies diferentes.Sus
+                        hojas nacen de una roseta basal. Son alargadas, péndulas, afiladas y de color
+                        verde con un listón blanco en el centro. Los retoños brotan de unas flores
+                        blancas pequeñas. Si se trasplantan correctamente, se desarrollan hasta la
+                        adultez.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">600</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Interior 5 -->
+		<div class="item">
+			<img src="imagenes/ficus.jpg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="ficus" >FICUS</h3>
+                <div>
+                    <p  class="card-text"> Es una árbol ornamental popular en jardines tropicales y subtropicales, y también se cultiva como planta de interior en áreas templadas, donde por lo general se mantiene más bajo, no florece ni da frutos. Es resistente hasta 10 °C, por lo que un ejemplar puede colocarse en exteriores durante períodos cálidos.<br>
+                        Las hojas son de forma variable, pero a menudo cuentan con un ápice ancho y un centro angosto que se asemeja a una lira o violín, pueden llegar hasta 45 cm de largo y 30 cm de ancho, aunque generalmente son más pequeñas, tienen una textura coriácea, venas prominentes y un borde ondulado.<br>
+
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">7100</p>
+				</div>
+			</div>
+
+		</div>
+
+        <!-- Interior 6-->
+		<div class="item">
+			<img src="imagenes/monstera.jpg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="monstera" >MONSTERA</h3>
+                <div>
+                    <p  class="card-text"> La monstera o costilla de Adán es fácil de reconocer porque su exuberante hoja agujereada está de moda: estampada en telas, papel pintado y láminas. 
+                        Al natural, es espectacular. 
+                        La anchura de su hoja ya nos da pistas de su origen: sí, la monstera es una planta tropical trepadora originaria de Centroamérica.<br>
+                        Los originales agujeros de la monstera se desarrollan para resistir lluvias torrenciales de su hábitat natural sin romperse, por lo que es absolutamente normal que el proceso se retrase cuando las colocamos en el interior.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">4800</p>
+				</div>
+			</div>
+            
+		</div>
+    </div>
+
+    <h2 id="plantasdeexterior" class="titulo_h2">PLANTAS DE EXTERIOR</h2>
+
+    <div class="items-container">
+		<!-- Exterior 1 -->
+		<div class="item">
+			<img src="imagenes/washingtonia.jpg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="washingtonia" >WASHINGTONIA</h3>
+                
+                <div>
+                    <p  class="card-text">  Esta palmera tiene un aspecto muy elegante, acentuados por sus troncos delgados y ligeramente curvados.<br>
+                        Es recomendable para areas grandes, especialmente en sitios aridos. Se ve mejor cultivada en grupos de jardines formales e informales.
+                        En jardines urbanos, es mejor usarlas en casas altas, donde pueda suavizar las lineas arquitectonicas. Podes combinarlas con plantas tropicales o plantas de follaje llamativo.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">3900</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Exterior 2 -->
+		<div class="item">
+			<img src="imagenes/cyca.jpg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="cyca" >PALMERA CYCA</h3>
+                
+                <div>
+                    <p  class="card-text"> La Cycas revoluta, conocida como cica, sagú verdadero de la India, falsa palmera o palma sago, tiene un crecimiento lento, con lo cual al año no gasta tanta energía en crecer como la tiene que gastar un árbol. 
+                        Es originaria del sur de Japón, aunque en la actualidad se cultiva en todas las regiones desde tropicales a templadas del mundo.<br>
+                        Alcanza una altura máxima de 7 metros, si bien los humanos no solemos poder ver ejemplares de más de 2 metros debido a su lento desarrollo y a nuestra limitada longevidad. Está formada por un falso tronco, llamado también pseudotallo, más o menos recto, que mide unos 20 centímetros de grosor, y por una corona de hojas rígidas, de color verde oscuro, con una longitud de hasta 2 metros. 
+                        A diferencia de muchas otras plantas, la cica produce numerosas hojas de una sola vez, por lo general una vez cada año.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">5000</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Exterior 3 -->
+		<div class="item">
+			<img src="imagenes/pindo.jpg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="pindo" >PALMERA PINDO</h3>
+                <div>
+                    <p  class="card-text"> Palmera Pindó es una palmera originaria de Sudamérica.
+                        Puede llegar a medir unos 15 metros de altura y se caracteriza por poseer un tronco recto con marcas en forma de anillos.
+                        Sus hojas poseen un color verde intenso brillante y sus frutos son de color anaranjado, comestibles.<br>
+                        Durante el verano florecen unas pequeñas flores perfumadas.<br>
+                        Esta especie de palmera es utiliza (principalmente) con fines decorativos para calles, boulevares, parques y jardines.
+                        Se desempeña bien en suelos sueltos y bien drenados. Es bastante tolerante pero crece mejor en tierras más arenosas. Puede correctamente instalarse en espacios urbanos si se mantiene con la humedad adecuada.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">3900</p>
+				</div>
+			</div>
+		</div>
+    </div>   
+
+    <h2 id="suculentas" class="titulo_h2">SUCULENTAS</h2>   
+	<div class="items-container">
+		<!-- Suculenta 1 -->
+		<div class="item">
+			<img src="imagenes/graptopetalum.jpg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="graptopetalum" >Graptopetalum</h3>
+                
+                <div>
+                    <p  class="card-text">  El género Graptopetalum incluye al menos dieciocho especies distintas muy decorativas y con un aspecto vistoso. Si vas a adquirir uno, lo más probable es que encuentres la variedad Graptopetalum Paraguayense, muy apreciada en jardinería por sus rosetas y sus flores blancas en forma de estrella. Destaca también la variedad Graptopetalum Superbum, con su color entre rosa y violeta. Por último, otra especie llamativa por sus flores es la Graptopetalum Amethystium, que resiste muy bien las heladas.<br>
+						El riego de estas plantas, como en la mayoría de suculentas es moderado en los meses cálidos y muy bajo o nulo en invierno. En general soportan bien el frío, siempre que la tierra permanezca seca. Durante el resto del año, esta planta prefiere estar expuesta al sol y con temperaturas moderadas a cálidas.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">150</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Suculenta 2 -->
+		<div class="item">
+			<img src="imagenes/echeveria2.jpg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="echeveria" >Echeveria</h3>
+                
+                <div>
+                    <p  class="card-text"> Por lo general, estas plantas suculentas no están provistas de tallo, en realidad, crecen formando una roseta. Sus hojas, como buenas crasas que son, se caracterizan por almacenar agua y nutrientes (carnosas), aplanadas,de varias tonalidades (la Echeveria elegans por ejemplo tiene el follaje azulado) y de carácter perenne.<br>
+						Las flores crecen de un largo tallo desarrollado en el centro de la roseta y, generalmente, son muy llamativas. La floración se produce a partir de primavera y suele durar hasta finales de verano.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">150</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Suculenta 3 -->
+		<div class="item">
+			<img src="imagenes/aeonium.jpg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="aeonium" >Aeonium</h3>
+                <div>
+                    <p  class="card-text"> Las cuarenta especies que componen el género Aeonium son muy resistentes a la sequía, por lo que no es necesario regarlas con demasiada frecuencia. Al contrario, durante el invierno procura no regarlas, en primavera comienza con un poco de riego y auméntalo ligeramente hacia el verano y el otoño. Asegúrate de que el sustrato drene correctamente el exceso de agua. <br>
+						Este género destaca por sus rosetas bastante grandes, entre 20cm y 50cm de diámetro. En general no son demasiado grandes, aunque hay algunas variedades que pueden llegar al metro de altura. Antes de adquirir una, pregunta siempre por el tamaño que alcanzará y si se adaptará al clima de tu zona.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">150</p>
+				</div>
+			</div>
+		</div>
+    </div>   
+	<h2 id="suculentas" class="titulo_h2">COMBOS</h2>   
+	<div class="items-container">
+		<!-- Combo 1 -->
+		<div class="item">
+			<img src="imagenes/sucucombo.jpeg">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="combo1" >Combo 1: Suculentas</h3>
+                
+                <div>
+                    <p  class="card-text">  El combo incluye:<br>
+						10 Suculentas a eleccion num 10 
+						
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">1300</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Combo 2 -->
+		<div class="item">
+			<img src="imagenes/macetayplanta.webp">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="combo2" >Combo 2: Maceta fibrocemento + planta</h3>
+                
+                <div>
+                    <p  class="card-text"> El combo incluye:<br>
+						1- Maceta de fibrocemento Blanca o Negra a eleccion.
+						2- Planta interior (Strelitzia, Monstera o Alocasia)
+						3- Tierra, jabon potasico y fertilizante.
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">9500</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Combo 3 -->
+		<div class="item">
+			<img src="imagenes/combo3.webp">
+			<div class="overflow">
+				<i class="fa fa-cart-plus fa-5x" id="basket"></i>
+			</div>
+			<div class="item-detail">
+				<h3 id="combo3" >Combo 3: Completo estilo nordico</h3>
+                <div>
+                    <p  class="card-text"> El combo incluye:<br>		
+						1 Pie portamaceta madera altura a elegir 60 cm o 40 cm + 1 planta Deco a eleccion + 1 maceta blanca 22 cm de diámetro<br>
+						Alocasia, Monstera, Philodendro misionero, Anthurium, Philodendro Imperial, Spathyfilum Sensation, Strelitzia Reginae, Fatsia Japonica, Wembe, 	Sansevieira 
+                    </p>
+                </div>	  
+				<div class="prices">
+					<p>$</p>
+					<p class="price">3500</p>
+				</div>
+			</div>
+		</div>
+    </div>   
+
+    <a href="index.html">Menu principal</a>
+
+
+    <script src="https://use.fontawesome.com/a9074f2a41.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="archivosjs/proyecto.js"></script>
+	<script src="archivosjs/carrito.js"></script>
+	
+	
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
